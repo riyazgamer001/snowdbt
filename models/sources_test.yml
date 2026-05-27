@@ -1,0 +1,7 @@
+sources:
+  - name: dbt_sample
+    schema: DBT_TEST
+    tables:
+      - name: CONSUMER  
+
+
