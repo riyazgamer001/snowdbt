@@ -1,7 +1,8 @@
 sources:
   - name: dbt_sample
-    schema: DBT_TEST
+    schema: DBT_TEST 
     tables:
-      - name: CONSUMER  
+      - name: CONSUMER
+      - name: EMPLOYEE 
 
 
