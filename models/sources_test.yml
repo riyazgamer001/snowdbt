@@ -1,8 +1,9 @@
 sources:
   - name: dbt_sample
-    schema: DBT_TEST 
+    schema: DBT_TEST
+    database: DB_DEV
     tables:
       - name: CONSUMER
-      - name: EMPLOYEE 
-
-
+      - name: EMPLOYEE
+      - name: PO_TABLE
+      - name: SALES
